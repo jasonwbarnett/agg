@@ -2,45 +2,45 @@
 
 
 [[projects]]
-  digest = "1:b62a3c5b37db602bf1158e921da1a762315a4c37855fd418a14498aa87a342d5"
+  digest = "1:75b1a69d076b95a66aea34b77cf70202dc9b537a55fe3255150d4f6bb8e0a1b4"
   name = "cloud.google.com/go"
   packages = ["civil"]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "aad3f485ee528456e0768f20397b4d9dd941e755"
   version = "v0.25.0"
 
 [[projects]]
   branch = "master"
-  digest = "1:202ebf56814f6df353d5482c16d9feca8ea740e9ed7bf278259e8e4da307d3e5"
+  digest = "1:32ca74cb28e2f67c78bd6b902865da5acc8f57b41cae4ab32d8ff527385be298"
   name = "github.com/denisenkom/go-mssqldb"
   packages = [
     ".",
     "internal/cp",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "242fa5aa1b45aeb9fcdfeee88822982e3f548e22"
 
 [[projects]]
-  digest = "1:76dc72490af7174349349838f2fe118996381b31ea83243812a97e5a0fd5ed55"
+  digest = "1:6b014c67cb522566c30ef02116f9acb50cd60954708cf92c6654e2985696db18"
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "06ea1031745cb8b3dab3f6a236daf2b0aa468b7e"
   version = "v3.2.0"
 
 [[projects]]
-  digest = "1:87f801436ec4799e0e043ab348ff9f3e95b1b3761138158f0950ac67695cc272"
+  digest = "1:6efb318b3167aaa77837dd686321cb7ddc00c3d3268365fb0b36558c0f79c033"
   name = "github.com/labstack/echo"
   packages = [
     ".",
     "middleware",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "6d227dfea4d2e52cb76856120b3c17f758139b4e"
   version = "3.3.5"
 
 [[projects]]
-  digest = "1:568171fc14a3d819b112c3e219d351ea7b05e8dad7935c4168c6b3373244a686"
+  digest = "1:5c9c629406ba95d077b08602749595dbf11834f7c87483d1a69052774bfe0205"
   name = "github.com/labstack/gommon"
   packages = [
     "bytes",
@@ -48,15 +48,15 @@
     "log",
     "random",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "d6898124de917583f5ff5592ef931d1dfe0ddc05"
   version = "0.2.6"
 
 [[projects]]
-  digest = "1:c658e84ad3916da105a761660dcaeb01e63416c8ec7bc62256a9b411a05fcd67"
+  digest = "1:b168836ecd85a2d138391dbc464d2442ea9400c29cc0636f2c6056b996692e29"
   name = "github.com/mattn/go-colorable"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
   version = "v0.0.9"
 
@@ -64,15 +64,31 @@
   digest = "1:d4d17353dbd05cb52a2a52b7fe1771883b682806f68db442b436294926bbfafb"
   name = "github.com/mattn/go-isatty"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
   version = "v0.0.3"
+
+[[projects]]
+  digest = "1:a82223630c35be0e7b7e543bf8db95b8de3f1319671b30c6104ea521a00f36fd"
+  name = "github.com/mitchellh/gox"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "c9740af9c6574448fd48eb30a71f964014c7a837"
+  version = "v0.4.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:041bb70411ef6945901c63cab3bfd6a1a1de88352359ad0e6e1e86478a53d0ec"
+  name = "github.com/mitchellh/iochan"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "87b45ffd0e9581375c491fef3d32130bb15c5bd7"
 
 [[projects]]
   digest = "1:808cdddf087fb64baeae67b8dfaee2069034d9704923a3cb8bd96a995421a625"
   name = "github.com/patrickmn/go-cache"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "a3647f8e31d79543b2d0f0ae2fe5c379d72cedc0"
   version = "v2.1.0"
 
@@ -81,7 +97,7 @@
   digest = "1:c468422f334a6b46a19448ad59aaffdfc0a36b08fdcc1c749a0b29b6453d7e59"
   name = "github.com/valyala/bytebufferpool"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
 
 [[projects]]
@@ -89,27 +105,27 @@
   digest = "1:268b8bce0064e8c057d7b913605459f9a26dcab864c0886a56d196540fbf003f"
   name = "github.com/valyala/fasttemplate"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
 
 [[projects]]
   branch = "master"
-  digest = "1:d2504014725ee8749f98169984247609d3dbaa787dc37acb131695dfdb899320"
+  digest = "1:0a9ada1be4a230b3dd968c493b400e47dc0bf64ae2bcf7f2fc9c8f4e9d88904f"
   name = "golang.org/x/crypto"
   packages = [
     "acme",
     "acme/autocert",
     "md4",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "c126467f60eb25f8f27e5a981f32a87e3965053f"
 
 [[projects]]
   branch = "master"
-  digest = "1:8466957fb2af510f68b13aec64ccad13e9e756dc1da3ea28c422f8ac410e56f0"
+  digest = "1:d176cdc98a08960ad84bcedbabafb0da376fcc982a72a88cdafad8b7ef996a00"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "bd9dbc187b6e1dacfdd2722a87e83093c2d7bd6e"
 
 [solve-meta]
@@ -119,6 +135,7 @@
     "github.com/denisenkom/go-mssqldb",
     "github.com/labstack/echo",
     "github.com/labstack/echo/middleware",
+    "github.com/mitchellh/gox",
     "github.com/patrickmn/go-cache",
   ]
   solver-name = "gps-cdcl"
